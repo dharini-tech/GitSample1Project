@@ -7,11 +7,6 @@ packages:
   gitUrl: https://github.com/dharini-tech
   gitUsername: dharini-tech
   gitBranch: main
-- name: ISSampleProject
-  gitServerName: github_com_dharini
-  gitUrl: https://github.com/dharini-tech
-  gitUsername: dharini-tech
-  gitBranch: master
 services:
 - serviceName: project.gitsample1.integrations:SampleDAF2
   packages:
