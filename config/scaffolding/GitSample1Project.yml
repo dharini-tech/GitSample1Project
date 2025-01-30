@@ -8,14 +8,17 @@ packages:
   gitUsername: dharini-tech
   gitBranch: main
 - name: ISSampleProject
+  version: "1.0"
   gitServerName: github_com_dharini
   gitUrl: https://github.com/dharini-tech
   gitUsername: dharini-tech
   gitBranch: master
 services:
-- serviceName: project.gitsample1.integrations:SampleDAF2
+- serviceName: project.gitsample1.integrations:SampleDAF
   packages:
   - name: GitSample1Project
+    version: "1.0"
+  - name: ISSampleProject
     version: "1.0"
 - serviceName: pub.math:addInts
   packages:
