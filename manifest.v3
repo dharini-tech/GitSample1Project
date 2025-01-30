@@ -8,17 +8,18 @@
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
+    <value name="ISSampleProject">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">5</value>
+  <value name="build">6</value>
   <null name="description"/>
   <value name="created_date">30-01-2025 08:41:33 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-01-30T09:01:28.47409388Z</value>
+  <value name="lastUpdated">2025-01-30T09:07:18.021296872Z</value>
   <value name="wmProjectId">fle5e30dc15be271783c32fe</value>
   <value name="creator">Integration Server Administrator</value>
 </Values>
