@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">pieadmin</value>
-    <value name="createdDate">1738248786571</value>
-    <value name="lastModifiedDate">1738248786571</value>
+    <value name="lastModifiedBy">pieadmin</value>
+    <value name="lastModifiedDate">1738249627763</value>
     <value name="displayName">SampleDAF</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -64,6 +63,12 @@
           <value name="serviceName">pub.math:addInts</value>
           <value name="transformerSupport">true</value>
         </record>
+        <number name="ui_step_index" type="Long">1</number>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
       </record>
     </record>
   </record>
